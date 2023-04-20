@@ -41,6 +41,7 @@
 
 /* ==================/ul and link style configuration================== */
 
+
 body {
   font-family: var(--primary-font);
   background-color: var(--white-color);
@@ -53,6 +54,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ==========================HEAD ========================== */
@@ -142,11 +150,17 @@ body {
 .hero {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
+  /* position: absolute; */
+width: 1440px;
+height: 312px;
+left: 0px;
+top: 2280px;
 }
 
 /* text hero 1 */
@@ -262,6 +276,7 @@ top: 428px; */
   text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72;
 }
 
 .scroll-section {
