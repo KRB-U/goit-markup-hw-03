@@ -101,6 +101,8 @@ img {
 
 .nav-menu {
   display: flex;
+  flex-wrap: wrap;
+  gap: 76px;
 }
 
 /* розташування в рядок хедера */
@@ -110,6 +112,11 @@ img {
   display: flex;
   align-items: center;
 }
+
+/* .contact-pc {
+
+} */
+
 /* не працює */
 .menu-item:not(:last-child) {
   margin-right: 40;
@@ -172,6 +179,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
+  /* margin-left:auto; */
 }
 
 .menu-link:is(:hover, :focus),
@@ -232,7 +240,7 @@ img {
   left: 472px;
   top: 260px; */
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* Button Text */
@@ -330,7 +338,7 @@ top: 428px; */
 }
 
 .scroll-section {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   width: 264px;
   display: block;
 }
