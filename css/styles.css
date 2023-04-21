@@ -89,7 +89,12 @@ img {
   height: auto;
 }
 
-/* ==========================HEAD ========================== */
+/* ==========================HEADER ========================== */
+
+.page-header-conbtainer {
+  display: flex;
+  align-items: center;
+}
 
 /* Web logo part*/
 .header-logo {
