@@ -49,8 +49,7 @@ img {
 }
 
 button {
-cursor: pointer;
-
+  cursor: pointer;
 }
 
 .list {
@@ -100,8 +99,16 @@ img {
   display: flex;
 }
 
+/* розташування в рядок хедера */
+.menu,
+.contact-pc {
+  display: flex;
+  align-items: center;
+}
+
 /* Web logo part*/
 .header-logo {
+
   font-family: var(--secondary-font);
   font-style: ExtraBold;
   font-weight: 800;
@@ -114,6 +121,7 @@ img {
 
 /* studio logo part */
 .studio-logo {
+
   font-family: var(--secondary-font);
   font-style: ExtraBold;
   font-weight: 800;
