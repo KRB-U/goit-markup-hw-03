@@ -104,12 +104,13 @@ img {
 }
 
 /* розташування в рядок хедера */
+/* не працює */
 .menu,
 .contact-pc {
   display: flex;
   align-items: center;
 }
-
+/* не працює */
 .menu-item:not(:last-child) {
   margin-right: 40;
 }
