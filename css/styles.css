@@ -27,6 +27,26 @@
 }
 
 /* ==================ul and link style configuration================== */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
   /* padding: 0;
@@ -41,7 +61,6 @@
 
 /* ==================/ul and link style configuration================== */
 
-
 body {
   font-family: var(--primary-font);
   background-color: var(--white-color);
@@ -54,7 +73,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
 }
 
 img {
@@ -157,10 +175,10 @@ img {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
   /* position: absolute; */
-width: 1440px;
-height: 312px;
-left: 0px;
-top: 2280px;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
 }
 
 /* text hero 1 */
@@ -182,7 +200,6 @@ top: 2280px;
   top: 260px; */
 
   outline: 2px solid red;
- 
 }
 
 /* Button Text */
@@ -313,7 +330,6 @@ top: 428px; */
 }
 
 .but-item {
-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
