@@ -245,6 +245,7 @@ img {
 
 /* Button Text */
 .order-button {
+  min-width: 169px;
   font-size: 16px;
   line-height: 1.5;
   font-family: var(--primary-font);
