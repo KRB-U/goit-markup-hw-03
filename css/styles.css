@@ -245,11 +245,6 @@ img {
 
 /* Button Text */
 .order-button {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 32px;
-  padding-left: 32px;
-  font-size: 16px;
   line-height: 1.5;
   font-family: var(--primary-font);
   font-weight: 500;
