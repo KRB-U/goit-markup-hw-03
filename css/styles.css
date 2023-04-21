@@ -91,9 +91,13 @@ img {
 
 /* ==========================HEADER ========================== */
 
-.page-header-conbtainer {
+.page-header-container {
   display: flex;
   align-items: center;
+}
+
+.nav-menu {
+  display: flex;
 }
 
 /* Web logo part*/
