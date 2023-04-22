@@ -338,6 +338,7 @@ top: 428px; */
 
 .title-pages,
 .scroll-section {
+  padding-top: 120px;
   outline: 2px solid tomato;
   font-style: 500;
   font-weight: 500;
