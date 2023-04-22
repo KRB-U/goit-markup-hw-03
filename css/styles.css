@@ -180,6 +180,9 @@ img {
   line-height: 1.5;
   color: var(--navy-blue-color);
   letter-spacing: 0.04em;
+  gap: 0 30px;
+  justify-content: center;
+
 }
 
 .contact-pc {
@@ -340,7 +343,6 @@ top: 428px; */
 .title-pages,
 .scroll-section {
   padding-top: 120px;
-  outline: 2px solid tomato;
   font-style: 500;
   font-weight: 500;
   font-size: 36px;
@@ -349,26 +351,22 @@ top: 428px; */
   /* text-align: center; */
   text-transform: capitalize;
   letter-spacing: 0.02em;
-  /* text-align: center; */
-  /* margin-bottom: 72; */
   display: flex;
-
-  /* задав падінг - появився зазор ще й і з верхнбою прихованою секцією */
-  /* padding-bottom: 96px; */
+  /* text-align: center; */
 }
 
 .scroll-section {
-  /* outline: 2px solid tomato; */
-  /* width: 264px; */
-  display: flex;
+
+  
 }
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
   background: var(--cloud-background-color);
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-align:center;
 }
 
 /* ==========================/Scroll-section========================== */
@@ -378,7 +376,7 @@ top: 428px; */
 .doing-alignment {
   flex-wrap: wrap;
   gap: 0px 24px;
-  flex-basis: calc((100%-24px*2))/3;
+  flex-basis: calc((100% - 24px * 2 )/3);
 }
 
 /* =============================team================================ */
@@ -386,7 +384,7 @@ top: 428px; */
 .team-alignment {
   flex-wrap: wrap;
   gap: 0px 24px;
-  flex-basis: calc((100%-24px*3))/4;
+  flex-basis: calc((100% - 24px * 3 ) /4);
 }
 
 /* лого підвалу */
@@ -409,7 +407,7 @@ top: 428px; */
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  flex-basis: calc((100%-24px*2))/3;
+  flex-basis: calc((100% - 24px * 2 ) / 3);
 
 }
 
