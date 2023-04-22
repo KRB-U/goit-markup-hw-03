@@ -219,7 +219,7 @@ img {
 .hero {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
-  text-align: center;
+
   /* margin-left: auto;
   margin-right: auto; */
   margin-bottom: 48;
@@ -237,6 +237,7 @@ img {
 
 /* text hero 1 */
 .hero-tittle {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
