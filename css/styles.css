@@ -334,7 +334,7 @@ top: 428px; */
 
 .title-pages
  {
-  /* padding-top: 120px; */
+  
   font-style: 500;
   font-weight: 500;
   font-size: 36px;
@@ -343,7 +343,7 @@ top: 428px; */
   /* text-align: center; */
   /* text-transform: capitalize; */
   letter-spacing: 0.02em;
-  
+  margin-bottom: 72px;
   /* text-align: center; */
 }
 
