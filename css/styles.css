@@ -88,6 +88,11 @@ img {
   height: auto;
 }
 
+.section {
+  /* Для секцій використовується один клас .section,
+  в якому задані відповідні падінги, що відсувають контент всередину секції. */
+}
+
 /* a {
   display: flex;
 } */
@@ -96,7 +101,7 @@ img {
 
 .page-header-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-menu {
@@ -110,7 +115,12 @@ img {
 .menu,
 .contact-pc {
   display: flex;
+  gap: 40px;
   align-items: center;
+}
+
+.adven-flex {
+  display: flex;
 }
 
 /* не працює */
@@ -175,7 +185,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
-  margin-left:auto;
+  margin-left: auto;
   margin-right: 40px;
 }
 
@@ -209,7 +219,6 @@ img {
   /* margin-left: auto;
   margin-right: auto; */
   margin-bottom: 48;
-
 }
 
 .basement {
@@ -277,6 +286,7 @@ top: 428px; */
 
 .contacts-sec {
   font-style: normal;
+  margin-left: auto;
 }
 
 /* ==========================/HERO ========================== */
@@ -324,6 +334,7 @@ top: 428px; */
 
 .title-pages,
 .scroll-section {
+  outline: 2px solid tomato;
   font-style: 500;
   font-weight: 500;
   font-size: 36px;
@@ -335,15 +346,15 @@ top: 428px; */
   /* text-align: center; */
   /* margin-bottom: 72; */
   display: flex;
-  flex-wrap: wrap;
+
   /* задав падінг - появився зазор ще й і з верхнбою прихованою секцією */
-  padding-bottom: 96px;
+  /* padding-bottom: 96px; */
 }
 
 .scroll-section {
   /* outline: 2px solid tomato; */
-  width: 264px;
-  display: block;
+  /* width: 264px; */
+  display: flex;
 }
 
 .team {
@@ -355,6 +366,14 @@ top: 428px; */
 }
 
 /* ==========================/Scroll-section========================== */
+
+/* ==================team=================== */
+
+.team-alignment {
+  flex-wrap: wrap;
+  gap: 0px 24px;
+  flex-basis: calc((100%-24px*3))/4;
+}
 
 /* лого підвалу */
 
@@ -370,6 +389,15 @@ top: 428px; */
 }
 
 /* ==========================portfolio========================== */
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  flex-basis: calc((100%-24px*2))/3;
+
+}
 
 .head-logo-port {
   letter-spacing: 0.03em;
