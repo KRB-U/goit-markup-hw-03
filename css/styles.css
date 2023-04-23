@@ -165,6 +165,10 @@ img {
   line-height: 1.5;
   color: var(--cloud-background-color);
   letter-spacing: 0.03em;
+  max-width: 264px;
+  /* padding-left: 156px; */
+/* padding-top: 100px;
+padding-left: 100px; */
 }
 
 .menu-link {
@@ -182,6 +186,12 @@ img {
   letter-spacing: 0.04em;
   gap: 0 30px;
   justify-content: center;
+}
+
+/* portfolios buttom items */
+.buttoms {
+padding-top: 96px;
+padding-bottom: 72px;
 }
 
 .contact-pc {
@@ -222,7 +232,8 @@ img {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
 
-  padding-bottom: 120px;
+  /* padding-top: ; */
+  /* padding-bottom: 120px; */
 }
 
 .basement {
@@ -268,6 +279,7 @@ img {
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  
 }
 
 .but-primary:is(:hover, :focus) {
@@ -327,6 +339,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+ 
 }
 
 .title-pages {
@@ -339,22 +352,36 @@ img {
   /* text-transform: capitalize; */
   letter-spacing: 0.02em;
   margin-bottom: 72px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .scroll-section {
-  padding-top: 120px;
-  padding-bottom: 96px;
+  /* padding-top: 120px;
+  padding-bottom: 96px; */
   display: flex;
 }
 
+.employees-card-content-wrapper {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+padding: 32px 16px;
+background-color: var(--white-color);
+
+
+}
+/* ==========================/scroll sec========================= */
+
+/* =================================team======================== */
 .team {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  /* padding-top: 120px;*/
+  /* padding-bottom: 120px; */
   background: var(--cloud-background-color);
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.team-pad-top {
+  padding-top: 120px;
 }
 
 /* ==========================/Scroll-section========================== */
@@ -367,7 +394,7 @@ img {
 }
 
 .doing-section {
-  padding-top: 96px;
+  /* padding-top: 96px; */
   padding-bottom: 120px;
 }
 
@@ -377,6 +404,7 @@ img {
   flex-wrap: wrap;
   gap: 0px 24px;
   flex-basis: calc((100% - 24px * 3) / 4);
+  padding-bottom: 120px;
 }
 
 /* лого підвалу */
@@ -397,7 +425,10 @@ img {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  /* gap: 48px 24px; */
+ }
+
+.alignment-list-studio {
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
@@ -432,4 +463,9 @@ img {
   color: var(--white-color);
   background-color: var(--ocean-button-color);
   cursor: pointer;
+}
+
+.employees-card-portfolio-wrapper{
+  border: 1px solid var(--cornflower-color)
+  background-color: var(--white-color);
 }
