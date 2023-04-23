@@ -223,13 +223,11 @@ img {
   letter-spacing: 0.03em;
 
   padding-bottom: 120px;
- 
 }
 
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
-  
 }
 
 /* text hero 1 */
@@ -241,13 +239,14 @@ img {
   color: var(--white-color);
 
   letter-spacing: 0.02em;
-  text-align: center;
-
+  /* text-align: center; */
 
   margin-left: auto;
   margin-right: auto;
+  padding-top: 168px;
+  padding-bottom: 48px;
 
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 /* Button Text */
@@ -267,12 +266,6 @@ img {
   gap: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* position: absolute;
-width: 169px;
-height: 56px;
-left: 636px;
-top: 428px; */
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -310,7 +303,6 @@ top: 428px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
-
 }
 
 .scroll-title-description {
@@ -323,8 +315,7 @@ top: 428px; */
   /* margin-bottom: 96px; */
 }
 
-.scr-section
-{
+.scr-section {
   padding-top: 120px;
   padding-bottom: 96px;
 }
@@ -338,9 +329,7 @@ top: 428px; */
   color: var(--navy-blue-color);
 }
 
-.title-pages
- {
-  
+.title-pages {
   font-style: 500;
   font-weight: 500;
   font-size: 36px;
@@ -349,15 +338,15 @@ top: 428px; */
   /* text-align: center; */
   /* text-transform: capitalize; */
   letter-spacing: 0.02em;
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
   /* text-align: center; */
 }
 
 .scroll-section {
-  margin-bottom: 96px;
+  padding-top: 120px;
+  padding-bottom: 96px;
   display: flex;
 }
-
 
 .team {
   /* padding-top: 120px;
