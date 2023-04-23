@@ -88,11 +88,6 @@ img {
   height: auto;
 }
 
-.section {
-  /* Для секцій використовується один клас .section,
-  в якому задані відповідні падінги, що відсувають контент всередину секції. */
-}
-
 /* a {
   display: flex;
 } */
@@ -113,7 +108,6 @@ img {
 }
 
 /* розташування в рядок хедера */
-/* не працює */
 .menu,
 .contact-pc {
   display: flex;
@@ -125,7 +119,10 @@ img {
   display: flex;
 }
 
-/* не працює */
+.border-header {
+  border-bottom: 1px solid var(--cornflower-color);
+}
+
 .menu-item:not(:last-child) {
   margin-right: 40;
 }
@@ -167,7 +164,7 @@ img {
   letter-spacing: 0.03em;
   max-width: 264px;
   /* padding-left: 156px; */
-/* padding-top: 100px;
+  /* padding-top: 100px;
 padding-left: 100px; */
 }
 
@@ -190,8 +187,8 @@ padding-left: 100px; */
 
 /* portfolios buttom items */
 .buttoms {
-padding-top: 96px;
-padding-bottom: 72px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .contact-pc {
@@ -232,8 +229,8 @@ padding-bottom: 72px;
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
 
-  /* padding-top: ; */
-  /* padding-bottom: 120px; */
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .basement {
@@ -254,10 +251,10 @@ padding-bottom: 72px;
 
   margin-left: auto;
   margin-right: auto;
-  padding-top: 168px;
-  padding-bottom: 48px;
 
-  outline: 2px solid red;
+  margin-bottom: 48px;
+
+  /* outline: 2px solid red; */
 }
 
 /* Button Text */
@@ -279,7 +276,6 @@ padding-bottom: 72px;
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  
 }
 
 .but-primary:is(:hover, :focus) {
@@ -339,7 +335,6 @@ padding-bottom: 72px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
- 
 }
 
 .title-pages {
@@ -361,14 +356,6 @@ padding-bottom: 72px;
   display: flex;
 }
 
-.employees-card-content-wrapper {
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-padding: 32px 16px;
-background-color: var(--white-color);
-
-
-}
 /* ==========================/scroll sec========================= */
 
 /* =================================team======================== */
@@ -420,13 +407,40 @@ background-color: var(--white-color);
   text-transform: uppercase;
 }
 
+.employees-card-content-wrapper {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 16px;
+  background-color: var(--white-color);
+}
+
+.employees-name {
+  margin-bottom: 8px;
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.employees-position {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
 /* ==========================portfolio========================== */
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   /* gap: 48px 24px; */
- }
+}
 
 .alignment-list-studio {
   flex-basis: calc((100% - 24px * 2) / 3);
@@ -465,7 +479,7 @@ background-color: var(--white-color);
   cursor: pointer;
 }
 
-.employees-card-portfolio-wrapper{
-  border: 1px solid var(--cornflower-color)
+.employees-card-portfolio-wrapper {
+  border: 1px solid var(--cornflower-color);
   background-color: var(--white-color);
 }
