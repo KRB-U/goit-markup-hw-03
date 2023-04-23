@@ -123,9 +123,10 @@ img {
   border-bottom: 1px solid var(--cornflower-color);
 }
 
-.menu-item:not(:last-child) {
+/* .menu-item:not(:last-child) {
   margin-right: 40;
-}
+} */
+
 /* Web logo part*/
 .header-logo {
   font-family: var(--secondary-font);
@@ -443,6 +444,7 @@ padding-left: 100px; */
 }
 
 .alignment-list-studio {
+  margin
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
