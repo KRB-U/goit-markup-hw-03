@@ -186,8 +186,7 @@ img {
 
 /* portfolios buttom items */
 .buttoms {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-top: 96px;
 }
 
 .contact-pc {
@@ -235,7 +234,7 @@ img {
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
-  padding-top: 100px;
+  /* margin-top: 100px; */
   padding-bottom: 100px;
 }
 
@@ -277,8 +276,6 @@ img {
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
-  
 }
 
 .but-primary:is(:hover, :focus) {
@@ -369,6 +366,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .team-pad-top {
   padding-top: 120px;
 }
@@ -415,7 +413,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
   background-color: var(--white-color);
-
 }
 
 .employees-name {
@@ -425,7 +422,6 @@ img {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  
 }
 
 .employees-position {
@@ -443,7 +439,7 @@ img {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 48px 24px; */
+  gap: 48px 24px;
 }
 
 .alignment-list-studio {
@@ -487,9 +483,9 @@ img {
   border: 1px solid var(--cornflower-color);
   background-color: var(--white-color);
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px 16px;
-gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 32px;
+  gap: 8px;
 }
