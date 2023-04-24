@@ -153,6 +153,7 @@ img {
   color: var(--iris-button-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
 }
 
 /* studio logo part */
@@ -404,6 +405,7 @@ img {
   color: var(--cloud-background-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
 }
 
 .employees-card-content-wrapper {
