@@ -157,7 +157,6 @@ img {
 
 /* studio logo part */
 .studio-logo {
-  margin-right: 76;
   font-family: var(--secondary-font);
   font-style: ExtraBold;
   font-weight: 800;
@@ -166,6 +165,7 @@ img {
   color: var(--navy-blue-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
 }
 
 .preform {
