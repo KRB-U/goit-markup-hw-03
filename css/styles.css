@@ -65,8 +65,13 @@ button {
 }
 
 .section {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
+
+.section-work {
+  padding-top: 120px;
+  padding-bottom: 0px;
 }
 
 /* ==================/ul and link style configuration================== */
