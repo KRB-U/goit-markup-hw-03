@@ -184,6 +184,7 @@ padding-left: 100px; */
   letter-spacing: 0.04em;
   gap: 0 30px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 /* portfolios buttom items */
@@ -231,12 +232,14 @@ padding-left: 100px; */
   letter-spacing: 0.03em;
 
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* text hero 1 */
@@ -391,7 +394,7 @@ padding-left: 100px; */
 .team-alignment {
   flex-wrap: wrap;
   gap: 0px 24px;
-  flex-basis: calc((100% - 24px * 3) / 4);
+  /* scroll-title */
   padding-bottom: 120px;
 }
 
@@ -426,7 +429,7 @@ padding-left: 100px; */
 }
 
 .employees-position {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -444,7 +447,7 @@ padding-left: 100px; */
 }
 
 .alignment-list-studio {
-  margin
+  
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
