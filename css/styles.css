@@ -72,9 +72,9 @@ button {
   padding-top: 0;
 }
 
-/* .section-work-bt {
-  margin-bottom: 72px;
-} */
+.section-work-bt {
+  padding-top: 96px;
+}
 
 /* ==================/ul and link style configuration================== */
 
@@ -193,7 +193,7 @@ img {
   letter-spacing: 0.04em;
   gap: 0 30px;
   justify-content: center;
-
+margin-bottom: 72px;
 }
 
 /* portfolios buttom items */
