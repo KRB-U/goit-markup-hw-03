@@ -234,7 +234,7 @@ img {
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
-  /* margin-top: 100px; */
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
