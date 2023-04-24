@@ -91,8 +91,8 @@ body {
 
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -169,9 +169,9 @@ img {
 
 }
 
-.logo-backing {
+/* .logo-backing {
   margin-bottom: 16px;
-}
+} */
 
 .preform {
   letter-spacing: 0.03em;
@@ -185,6 +185,7 @@ img {
   color: var(--cloud-background-color);
   letter-spacing: 0.03em;
   max-width: 264px;
+  margin-top: 16px;
 }
 
 .menu-link {
