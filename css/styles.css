@@ -64,9 +64,12 @@ button {
   /* ... */
 }
 
-
 .section {
   padding: 120px 0px;
+}
+
+.section-but-list {
+  padding-top: 96px;
 }
 
 .section-work {
@@ -76,8 +79,6 @@ button {
 .scr-section {
   padding-bottom: 96px;
 }
-
-
 
 /* ==================/ul and link style configuration================== */
 
@@ -152,7 +153,6 @@ img {
   color: var(--iris-button-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-left: 156;
 }
 
 /* studio logo part */
@@ -197,13 +197,13 @@ img {
   letter-spacing: 0.04em;
   gap: 0 30px;
   justify-content: center;
-margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 /* portfolios buttom items */
 /* .buttoms {
   padding-top: 96px; */
-  /* padding-bottom: 72px;
+/* padding-bottom: 72px;
 } */
 
 .contact-pc {
@@ -346,6 +346,7 @@ margin-bottom: 72px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+  margin-bottom: 8px;
 }
 
 .title-pages {
@@ -362,10 +363,8 @@ margin-bottom: 72px;
 }
 
 .scroll-section {
-
   display: flex;
   gap: 24px;
-
 }
 
 /* ==========================/scroll sec========================= */
@@ -387,14 +386,11 @@ margin-bottom: 72px;
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
-
 /* =============================team================================ */
 
 .team-alignment {
   flex-wrap: wrap;
   gap: 0px 24px;
-
-
 }
 
 /* лого підвалу */
