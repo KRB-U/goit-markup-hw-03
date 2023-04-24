@@ -121,6 +121,7 @@ img {
   gap: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 
 /* розташування в рядок хедера */
@@ -153,6 +154,7 @@ img {
   color: var(--iris-button-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 
 }
 
