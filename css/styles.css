@@ -64,6 +64,7 @@ button {
   /* ... */
 }
 
+
 .section {
   padding: 120px 0px;
 }
@@ -72,9 +73,11 @@ button {
   padding-top: 0;
 }
 
-.section-work-bt {
-  padding-top: 96px;
+.scr-section {
+  padding-bottom: 96px;
 }
+
+
 
 /* ==================/ul and link style configuration================== */
 
@@ -336,15 +339,6 @@ margin-bottom: 72px;
   color: var(--slate-color);
 }
 
-/* .scr-section {
-  margin-top: 120px;
-  margin-bottom: 96px; */
-  /* padding-top: 120px; */
-  /* padding-bottom: 96px; */
-  /* outline: 2px solid tomato;
-} 
-*/
-
 .hum-devoloper {
   background-color: var(--white-color);
   font-weight: 500;
@@ -368,19 +362,16 @@ margin-bottom: 72px;
 }
 
 .scroll-section {
-  /* padding-top: 120px;
-  padding-bottom: 96px; */
+
   display: flex;
   gap: 24px;
-  /* outline: 2px solid tomato; */
+
 }
 
 /* ==========================/scroll sec========================= */
 
 /* =================================team======================== */
 .team {
-  /* padding-top: 120px;*/
-  /* padding-bottom: 120px; */
   background: var(--cloud-background-color);
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -396,10 +387,6 @@ margin-bottom: 72px;
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
-/* .doing-section {
-  padding-top: 96px; */
-  /* padding-bottom: 120px;
-} */
 
 /* =============================team================================ */
 
@@ -407,7 +394,7 @@ margin-bottom: 72px;
   flex-wrap: wrap;
   gap: 0px 24px;
 
-  /* padding-bottom: 120px; */
+
 }
 
 /* лого підвалу */
