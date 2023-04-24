@@ -72,9 +72,9 @@ button {
   padding-top: 0;
 }
 
-.section-work-bt {
-  /* margin-bottom: 72px; */
-}
+/* .section-work-bt {
+  margin-bottom: 72px;
+} */
 
 /* ==================/ul and link style configuration================== */
 
@@ -333,13 +333,14 @@ img {
   color: var(--slate-color);
 }
 
-.scr-section {
-  /* margin-top: 120px;
+/* .scr-section {
+  margin-top: 120px;
   margin-bottom: 96px; */
   /* padding-top: 120px; */
   /* padding-bottom: 96px; */
-  /* outline: 2px solid tomato; */
-}
+  /* outline: 2px solid tomato;
+} 
+*/
 
 .hum-devoloper {
   background-color: var(--white-color);
