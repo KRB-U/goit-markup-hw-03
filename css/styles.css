@@ -323,8 +323,11 @@ img {
 }
 
 .scr-section {
-  padding-top: 120px;
-  padding-bottom: 96px;
+  margin-top: 120px;
+  margin-bottom: 96px;
+  /* padding-top: 120px; */
+  /* padding-bottom: 96px; */
+  outline: 2px solid tomato;
 }
 
 .hum-devoloper {
