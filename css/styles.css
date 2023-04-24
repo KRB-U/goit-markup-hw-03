@@ -164,9 +164,6 @@ img {
   color: var(--cloud-background-color);
   letter-spacing: 0.03em;
   max-width: 264px;
-  /* padding-left: 156px; */
-  /* padding-top: 100px;
-padding-left: 100px; */
 }
 
 .menu-link {
@@ -324,7 +321,6 @@ padding-left: 100px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
-  /* margin-bottom: 96px; */
 }
 
 .scr-section {
