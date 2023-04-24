@@ -169,6 +169,10 @@ img {
 
 }
 
+.logo-backing {
+  margin-bottom: 16px;
+}
+
 .preform {
   letter-spacing: 0.03em;
 }
@@ -341,7 +345,6 @@ img {
 }
 
 .hum-devoloper {
-  background-color: var(--white-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -489,4 +492,5 @@ img {
   justify-content: center;
   align-items: flex-start;
   padding: 32px 16px;
+  
 }
