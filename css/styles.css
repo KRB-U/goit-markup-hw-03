@@ -331,7 +331,7 @@ img {
   margin-bottom: 96px; */
   /* padding-top: 120px; */
   /* padding-bottom: 96px; */
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .hum-devoloper {
@@ -361,7 +361,7 @@ img {
   padding-bottom: 96px; */
   display: flex;
   gap: 24px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* ==========================/scroll sec========================= */
