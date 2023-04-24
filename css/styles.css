@@ -190,10 +190,10 @@ img {
 }
 
 /* portfolios buttom items */
-.buttoms {
-  /* padding-top: 96px; */
-  /* padding-bottom: 72px; */
-}
+/* .buttoms {
+  padding-top: 96px; */
+  /* padding-bottom: 72px;
+} */
 
 .contact-pc {
   font-weight: 400;
@@ -240,7 +240,6 @@ img {
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
-
 }
 
 /* text hero 1 */
@@ -386,17 +385,17 @@ img {
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
-.doing-section {
-  /* padding-top: 96px; */
-  /* padding-bottom: 120px; */
-}
+/* .doing-section {
+  padding-top: 96px; */
+  /* padding-bottom: 120px;
+} */
 
 /* =============================team================================ */
 
 .team-alignment {
   flex-wrap: wrap;
   gap: 0px 24px;
- 
+
   /* padding-bottom: 120px; */
 }
 
@@ -498,6 +497,6 @@ img {
   gap: 8px;
 }
 
-.image-post {
-  /* margin-bottom: 120px; */
-}
+/* .image-post {
+  margin-bottom: 120px;
+} */
