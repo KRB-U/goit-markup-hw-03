@@ -277,6 +277,8 @@ img {
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  
 }
 
 .but-primary:is(:hover, :focus) {
@@ -413,6 +415,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
   background-color: var(--white-color);
+
 }
 
 .employees-name {
@@ -422,6 +425,7 @@ img {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  
 }
 
 .employees-position {
@@ -443,7 +447,6 @@ img {
 }
 
 .alignment-list-studio {
-  
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
@@ -483,4 +486,10 @@ img {
 .employees-card-portfolio-wrapper {
   border: 1px solid var(--cornflower-color);
   background-color: var(--white-color);
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 8px;
 }
