@@ -353,6 +353,7 @@ img {
   /* padding-top: 120px;
   padding-bottom: 96px; */
   display: flex;
+  gap: 24px;
 }
 
 /* ==========================/scroll sec========================= */
