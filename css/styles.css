@@ -64,6 +64,11 @@ button {
   /* ... */
 }
 
+.section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 /* ==================/ul and link style configuration================== */
 
 body {
@@ -181,13 +186,13 @@ img {
   letter-spacing: 0.04em;
   gap: 0 30px;
   justify-content: center;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 /* portfolios buttom items */
 .buttoms {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  /* padding-top: 96px; */
+  /* padding-bottom: 72px; */
 }
 
 .contact-pc {
@@ -235,9 +240,7 @@ img {
 .basement {
   background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
-  margin-top: 100px;
-  /* padding-top: 100px; */
-  padding-bottom: 100px;
+
 }
 
 /* text hero 1 */
@@ -325,8 +328,8 @@ img {
 }
 
 .scr-section {
-  margin-top: 120px;
-  margin-bottom: 96px;
+  /* margin-top: 120px;
+  margin-bottom: 96px; */
   /* padding-top: 120px; */
   /* padding-bottom: 96px; */
   outline: 2px solid tomato;
@@ -374,10 +377,6 @@ img {
   text-align: center;
 }
 
-.team-pad-top {
-  padding-top: 120px;
-}
-
 /* ==========================/Scroll-section========================== */
 
 /* ========================What are we doing========================== */
@@ -397,8 +396,8 @@ img {
 .team-alignment {
   flex-wrap: wrap;
   gap: 0px 24px;
-  /* scroll-title */
-  padding-bottom: 120px;
+ 
+  /* padding-bottom: 120px; */
 }
 
 /* лого підвалу */
@@ -500,5 +499,5 @@ img {
 }
 
 .image-post {
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
