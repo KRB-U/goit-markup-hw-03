@@ -235,11 +235,6 @@ img {
   margin-bottom: 72px;
 }
 
-/* portfolios buttom items */
-/* .buttoms {
-  padding-top: 96px; */
-/* padding-bottom: 72px;
-} */
 
 .contact-pc {
   font-weight: 400;
@@ -502,7 +497,11 @@ img {
   color: var(--white-color);
   background-color: var(--ocean-button-color);
   cursor: pointer;
+  border: 1px solid transparent;
 }
+
+
+
 
 .employees-card-portfolio-wrapper {
   border-left: 1px solid var(--cornflower-color);
