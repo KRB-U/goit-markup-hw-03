@@ -420,7 +420,7 @@ img {
 
 .team-alignment {
   flex-wrap: wrap;
-  gap: 0px 24px;
+  gap: 24px;
 }
 
 /* лого підвалу */
@@ -454,7 +454,7 @@ img {
 }
 
 .employees-position {
-  /* margin-bottom: 8px; */
+  color: var(--slate-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
