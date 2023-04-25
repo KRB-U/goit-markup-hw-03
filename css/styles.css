@@ -370,6 +370,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .hum-devoloper {
