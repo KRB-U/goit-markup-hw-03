@@ -115,17 +115,21 @@ img {
   /* align-items: center; */
 }
 
+/* розташування в рядок хедера */
 .nav-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 76px;
-  /* padding-top: 24px; */
-  /* padding-bottom: 24px; */
+  padding: 24px 0;
   align-items: center;
 }
 
-/* розташування в рядок хедера */
-.menu,
+.menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
 .contact-pc {
   display: flex;
   gap: 40px;
