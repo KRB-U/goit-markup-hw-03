@@ -364,6 +364,7 @@ img {
 }
 
 .scroll-title-description {
+  display: flex;
   font-style: 400;
   font-weight: 400;
   font-size: 16px;
@@ -463,6 +464,17 @@ img {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.employees-description {
+
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+
 }
 
 /* ==========================portfolio========================== */
