@@ -147,7 +147,6 @@ img {
 /* Web logo part*/
 .header-logo {
   font-family: var(--secondary-font);
-  font-style: ExtraBold;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -158,10 +157,10 @@ img {
 
 }
 
+/* ==============header logo================= */
 /* studio logo part */
 .studio-logo {
   font-family: var(--secondary-font);
-  font-style: ExtraBold;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -171,9 +170,38 @@ img {
 
 }
 
-/* .logo-backing {
-  margin-bottom: 16px;
-} */
+/* Web logo part*/
+.basement-logo-iris {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--iris-button-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+
+}
+/* ==============/header logo================= */
+
+/* studio logo part */
+.basement-logo-cloud {
+  color: var(--cloud-background-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.basement {
+  background-color: var(--navy-blue-color);
+  letter-spacing: 0.03em;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
 
 .preform {
   letter-spacing: 0.03em;
@@ -187,7 +215,6 @@ img {
   color: var(--cloud-background-color);
   letter-spacing: 0.03em;
   max-width: 264px;
-  margin-top: 16px;
 }
 
 .menu-link {
@@ -256,12 +283,7 @@ img {
   padding-bottom: 188px;
 }
 
-.basement {
-  background-color: var(--navy-blue-color);
-  letter-spacing: 0.03em;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+
 
 /* text hero 1 */
 .hero-tittle {
@@ -410,13 +432,13 @@ img {
 
 /* лого підвалу */
 
-.studio-logo.basement {
+.studio-logo {
   font-family: var(--secondary-font);
   font-style: ExtraBold;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--cloud-background-color);
+  color: var(--navy-blue-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
