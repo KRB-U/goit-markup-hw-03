@@ -419,7 +419,7 @@ img {
 .doing-alignment {
   display: flex;
   flex-wrap: wrap;
-  gap: 0px 24px;
+  gap: 24px;
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
