@@ -382,13 +382,11 @@ img {
 }
 
 .title-pages {
-  font-style: 500;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue-color);
-  /* text-align: center; */
-  /* text-transform: capitalize; */
   letter-spacing: 0.02em;
   margin-bottom: 72px;
   text-align: center;
@@ -452,6 +450,7 @@ img {
 }
 
 .employees-name {
+  font-weight: 500;
   margin-bottom: 8px;
   color: var(--navy-blue-color);
   font-size: 20px;
